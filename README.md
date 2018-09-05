@@ -46,7 +46,7 @@ class UserComponent extends React.Component {
 }
 ```
 
-这个组件 dispatch 一个 plain Object 的 action 到 Store。我们将创建一个 Saga 来监听所有的 `USER_FETCH_REQUESTED` action，并触发一个 API 调用获取用户数据。
+这个组件 dispatch 一个简单的 Object 的 action 到 Store。我们将创建一个 Saga 来监听所有的 `USER_FETCH_REQUESTED` action，并触发一个 API 调用获取用户数据。
 
 #### `sagas.js`
 
